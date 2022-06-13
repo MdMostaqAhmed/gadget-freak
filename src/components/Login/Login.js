@@ -2,8 +2,8 @@ import React from 'react';
 
 const Login = () => {
     return (
-        <div>
-            <h1>this is login</h1>
+        <div className='container text-center mt-5'>
+            <button type='button' className='btn btn-warning'>Google Sign in</button>
         </div>
     );
 };
